@@ -13,6 +13,7 @@ An educational side-scrolling platformer where the player controls a frog naviga
 
 ### 🏆 Exhibition
 Successfully presented to public users at **Exito 202X** at **ICBT Bambalapitiya**.
+🏆 Recognition: Received a Certificate of Participation for showcasing this project at the exhibition.
 
 ### 🛠️ Tech Stack
 * **Java** (Core Logic)
