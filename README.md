@@ -1,9 +1,22 @@
-# Frog_exercise
+[Insert Real Game Name Here]
+A 2D Java-based game built using the LibGDX framework. This project was developed as a personal hobby project and was selected to be showcased at [Insert Name of Exhibition].
 
-A [libGDX](https://libgdx.com/) project generated with [gdx-liftoff](https://github.com/libgdx/gdx-liftoff).
+🎮 About the Game
+[Write 1 sentence here: e.g., A side-scrolling platformer where the player controls a frog navigating through traffic and rivers.]
 
-This project was generated with a template including simple application launchers and an empty `ApplicationListener` implementation.
+🚀 Key Features
+Engine: Built from scratch using Java and LibGDX.
 
+Mechanics: [Mention one cool thing, e.g., Custom collision detection or physics].
+
+Exhibition: Successfully presented to public users at [Exhibition Name].
+
+🛠️ Tech Stack
+Java (Core Logic)
+
+LibGDX (Game Engine)
+
+Gradle (Build Tool)
 ## Platforms
 
 - `core`: Main module with the application logic shared by all platforms.
