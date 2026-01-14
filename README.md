@@ -1,4 +1,4 @@
-[Insert Real Game Name Here]
+Frog_ex
 A 2D Java-based game built using the LibGDX framework. This project was developed as a personal hobby project and was selected to be showcased at [Insert Name of Exhibition].
 
 🎮 About the Game
