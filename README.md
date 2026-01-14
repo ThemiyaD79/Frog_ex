@@ -1,31 +1,32 @@
-Frog_ex
+# Frog_ex: Educational Java Platformer
 
-A 2D Java-based game built using the LibGDX framework. This project was developed as a personal hobby project and was selected to be showcased at [Insert Name of Exhibition].
+A 2D Java-based game built using the **LibGDX** framework. This project was developed as a personal hobby project and was selected to be showcased at the **ICBT Exito Exhibition**.
 
-🎮 About the Game
-[Write 1 sentence here: e.g., A side-scrolling platformer where the player controls a frog navigating through traffic and rivers.]
+### 🎮 About the Game
+An educational side-scrolling platformer where the player controls a frog navigating through traffic and obstacles. The game gamifies the experience of learning Java: when the player reaches specific checkpoints (Mystery Boxes), a syntax lesson pops up. To advance, the player must verify their learning by solving a mini-puzzle (such as dragging and dropping code blocks to complete the syntax). As the game progresses, both the movement speed and the complexity of the Java concepts increase.
 
-🚀 Key Features
-Engine: Built from scratch using Java and LibGDX.
+### 🚀 Key Features
+* **Educational Gameplay:** Integrates Java syntax lessons directly into the platforming mechanics.
+* **Interactive Assessments:** Includes drag-and-drop puzzles to test player understanding before advancing.
+* **Progressive Difficulty:** Game speed and coding complexity scale up as the player completes levels.
+* **Dynamic State Management:** Implemented custom collision listeners that pause the active game loop to trigger interactive UI overlays for the coding puzzles, seamlessly switching between gameplay and education modes.
 
-Mechanics: [Mention one cool thing, e.g., Custom collision detection or physics].
+### 🏆 Exhibition
+Successfully presented to public users at **Exito 202X** at **ICBT Bambalapitiya**.
 
-Exhibition: Successfully presented to public users at [Exhibition Name].
+### 🛠️ Tech Stack
+* **Java** (Core Logic)
+* **LibGDX** (Game Engine)
+* **Gradle** (Build Tool)
 
-🛠️ Tech Stack
-Java (Core Logic)
+---
 
-LibGDX (Game Engine)
-
-Gradle (Build Tool)
 ## Platforms
-
 - `core`: Main module with the application logic shared by all platforms.
-- `lwjgl3`: Primary desktop platform using LWJGL3; was called 'desktop' in older docs.
+- `lwjgl3`: Primary desktop platform using LWJGL3.
 - `lwjgl2`: Legacy desktop platform using LWJGL2.
 
 ## Gradle
-
 This project uses [Gradle](https://gradle.org/) to manage dependencies.
 The Gradle wrapper was included, so you can run Gradle tasks using `gradlew.bat` or `./gradlew` commands.
 Useful Gradle tasks and flags:
@@ -35,16 +36,5 @@ Useful Gradle tasks and flags:
 - `--offline`: when using this flag, cached dependency archives will be used.
 - `--refresh-dependencies`: this flag forces validation of all dependencies. Useful for snapshot versions.
 - `build`: builds sources and archives of every project.
-- `cleanEclipse`: removes Eclipse project data.
-- `cleanIdea`: removes IntelliJ project data.
 - `clean`: removes `build` folders, which store compiled classes and built archives.
-- `eclipse`: generates Eclipse project data.
-- `idea`: generates IntelliJ project data.
-- `lwjgl2:jar`: builds application's runnable jar, which can be found at `lwjgl2/build/libs`.
-- `lwjgl2:run`: starts the application.
-- `lwjgl3:jar`: builds application's runnable jar, which can be found at `lwjgl3/build/libs`.
 - `lwjgl3:run`: starts the application.
-- `test`: runs unit tests (if any).
-
-Note that most tasks that are not specific to a single project can be run with `name:` prefix, where the `name` should be replaced with the ID of a specific project.
-For example, `core:clean` removes `build` folder only from the `core` project.
